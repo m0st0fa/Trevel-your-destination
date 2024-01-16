@@ -456,3 +456,116 @@ header {
 .Copy-right{
     text-align: center;
 }
+/* mobile device start from here  */
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+    nav>ul{
+        flex-direction: column;
+    }
+    .banner-text {
+        top: 10%;
+    }
+    .banner-text-description{
+        margin-left: 0rem;
+        margin-top: 210px;
+    }
+    .banner-input-field{
+        margin-left: 4rem;
+        margin-top: 275px;
+
+    }
+    .banner-input-field{
+        flex-direction: column;
+
+    }
+    .popular-tour-section{
+        flex-direction: column;
+        margin: 12px 8px
+    }
+    .Destination-image-part-1{
+        flex-direction: column;
+    }
+    .Destination-image-part-2{
+        flex-direction: column;
+        margin-top: 112px;
+    }
+    .Destination-image-part-3{
+        flex-direction: column;
+    }
+    .Destination-Maldive-image-text{
+     margin-top: -98px;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .card-2{
+        margin-left: -2rem;
+    }
+    .card-1{
+        margin-left: -5rem;
+    }
+    .Newsletter-section{
+        flex-direction: column;
+    }
+    .card-3{
+        margin-left: 2rem;
+    }
+    .perfect-place-section{
+        flex-direction: column;
+
+    }
+    .popular-image{
+        margin-right: 10px;
+    }
+    .Destination-image-part{
+        margin: 28px 8px;
+    }
+    .north-america-image{
+        margin-top: 42px;
+    }
+    .kashmir-image{
+        margin-top: 42px;
+        height: 275px;
+        width: 475px;
+    }
+    .Bangladesh-image{
+        margin-left: 190px;
+        margin-top: 5px;
+    }
+    .Bandarban-image{
+        margin-top: 100px;
+    }
+    .deals-part-1{
+        margin: -3px -430px;
+    }
+    .deals-part-2{
+        margin: -3px -430px;
+    }
+    .deals-part-2-text{
+        margin-left: 28rem;
+    }
+    .deals-part-3{
+        margin: -3px -430px;
+    }
+    .perfect-place-section{
+        margin: -6px;
+        margin-left: 3rem;
+    }
+    .newsletter{
+        width: 600px;
+        margin-top: 9rem;
+        margin-left: -6rem;
+    }
+    .newsletter-image{
+        margin-top: 2rem;
+        margin-left: -6rem;
+    }
+    .footer-icons{
+        margin-left: 2rem;
+    }
+
+
+
+}
