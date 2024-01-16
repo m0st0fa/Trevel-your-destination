@@ -372,11 +372,70 @@ header {
 .perfect-place {
     padding: 10px;
 }
-.perfect-place-text{
+
+.perfect-place-text {
     position: relative;
     margin-top: -260px;
     font-size: 1.45rem;
     font-weight: 600;
     color: #FFF;
+    text-align: center;
+}
+
+/* Newsletter section */
+.Newsletter-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1160px;
+    margin: 50px 120px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.name {
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+    border-radius: 1rem;
+
+}
+
+.email {
+    padding: 1rem;
+    margin-bottom: .8rem;
+    border-radius: 1rem;
+
+}
+
+.newsletter {
+    padding: 1.25rem;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-image {
+    border-radius: 16px;
+    background: url("/Images/Rectangle\ 8\ \(1\).png"), lightgray 50% / cover no-repeat;
+    width: 672px;
+    height: 422px;
+}
+
+.save-70 {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 250px;
+    height: 110px;
+    transform: rotate(-21.628deg);
+    margin-top: 15rem;
+    margin-left: 20rem;
+}
+.save-70 p{
+    text-align: center;
+    padding: 10px;
+}
+.save-70 h1{
     text-align: center;
 }
