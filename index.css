@@ -1,0 +1,223 @@
+/* work sans font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* shared styles */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-image {
+    display: flex;
+    gap: 1rem;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+header {
+    max-width: 1300px;
+    margin: 50px 170px;
+}
+
+/* banner section  */
+.banner-section {
+    position: relative;
+    max-width: 1070px;
+    margin: 50px auto;
+    height: 500px;
+    background-image: url("/Images/Group 13 (1) (1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.banner-text-description {
+    position: absolute;
+    margin-top: 250px;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 18rem;
+    color: #fff;
+
+}
+
+.banner-input-field {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    margin-top: 400px;
+    align-items: center;
+    margin-left: 12rem;
+}
+
+.banner-input-field input[type="text"] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.banner-input-field input[type="text"]:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+/* shared button */
+.btn-primary {
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 1.25rem;
+    background: #FF5400;
+    padding: 10px 15px;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
+}
+
+/* popular-tour-section style is here */
+.popular-tour-section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 50px 170px;
+    gap: 20px;
+}
+
+.popular-image {
+    height: 360px;
+}
+
+/* Destination style */
+.destination-text {
+    color: #131318;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.destination-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-top: -2rem;
+}
+
+/* Destination-image-part */
+.Destination-image-part {
+    max-width: 1300px;
+    margin: 50px 130px;
+}
+
+.Destination-image-part-1 {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.Destination-Maldive-image-text {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 12rem;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800px;
+}
+
+.Destination-indonesia-image-text {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 12rem;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800px;
+}
+
+.Destination-image-part-2 {
+    display: flex;
+    gap: 10px;
+    margin-top: 110px;
+}
+
+.Srilanka {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 6rem;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800px;
+}
+
+.north-america {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 5.5rem;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800px;
+}
+
+.kashmir {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 3rem;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800px;
+}
+
+.Destination-image-part-3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.Bangladesh {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 3rem;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800px;
+}
+
+.Bandarban {
+    position: relative;
+    margin-top: -200px;
+    margin-left: 12rem;
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: 800px;
+}
