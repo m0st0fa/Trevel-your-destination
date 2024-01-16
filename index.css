@@ -46,7 +46,7 @@ header {
     max-width: 1070px;
     margin: 50px auto;
     height: 500px;
-    background-image: url("/Images/Group 13 (1) (1).png");
+    background-image: url("Images/Group 13 (1) (1).png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -269,7 +269,7 @@ header {
 /* deals and Discounted banner image 1 style */
 .deals-part-1 {
     border-radius: 16px;
-    background: url("/Images/Group\ 39.png"), lightgray 50% / cover no-repeat;
+    background: url("Images/Group\ 39.png"), lightgray 50% / cover no-repeat;
     max-width: 1300px;
     margin: 50px 170px;
     height: 400px;
@@ -418,7 +418,7 @@ header {
 
 .newsletter-image {
     border-radius: 16px;
-    background: url("/Images/Rectangle\ 8\ \(1\).png"), lightgray 50% / cover no-repeat;
+    background: url("Images/Rectangle\ 8\ \(1\).png"), lightgray 50% / cover no-repeat;
     width: 672px;
     height: 422px;
 }
@@ -437,5 +437,22 @@ header {
     padding: 10px;
 }
 .save-70 h1{
+    text-align: center;
+}
+/* footer style */
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-image{
+    display: flex;
+    justify-content: center;
+}
+.footer-description{
+    text-align: center;
+}
+.footer-icons{
+   margin-left: 40rem;
+}
+.Copy-right{
     text-align: center;
 }
