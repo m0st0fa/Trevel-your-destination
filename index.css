@@ -432,140 +432,161 @@ header {
     margin-top: 15rem;
     margin-left: 20rem;
 }
-.save-70 p{
+
+.save-70 p {
     text-align: center;
     padding: 10px;
 }
-.save-70 h1{
+
+.save-70 h1 {
     text-align: center;
 }
+
 /* footer style */
-.footer{
+.footer {
     background: rgba(19, 19, 24, 0.05);
 }
-.footer-image{
+
+.footer-image {
     display: flex;
     justify-content: center;
 }
-.footer-description{
+
+.footer-description {
     text-align: center;
 }
-.footer-icons{
-   margin-left: 40rem;
+
+.footer-icons {
+    margin-left: 40rem;
 }
-.Copy-right{
+
+.Copy-right {
     text-align: center;
 }
+
 /* mobile device start from here  */
+/* Mobile Styles (max-width: 576px) */
 @media screen and (max-width: 576px) {
-    nav{
+
+    /* Navigation */
+    nav {
         flex-direction: column;
     }
-    nav>ul{
+
+    nav>ul {
         flex-direction: column;
     }
+    .header{
+        margin: 60px 335px;
+        margin-left: 20rem;
+    }
+
+    /* Banner Section */
     .banner-text {
         top: 10%;
     }
-    .banner-text-description{
+
+    .banner-text-description {
         margin-left: 0rem;
         margin-top: 210px;
     }
-    .banner-input-field{
+
+    .banner-input-field {
         margin-left: 4rem;
         margin-top: 275px;
+        flex-direction: column;
+    }
 
-    }
-    .banner-input-field{
+    /* Popular Tour Section */
+    .popular-tour-section {
         flex-direction: column;
+        margin: 12px 8px;
+    }
 
-    }
-    .popular-tour-section{
-        flex-direction: column;
-        margin: 12px 8px
-    }
-    .Destination-image-part-1{
-        flex-direction: column;
-    }
-    .Destination-image-part-2{
-        flex-direction: column;
-        margin-top: 112px;
-    }
-    .Destination-image-part-3{
-        flex-direction: column;
-    }
-    .Destination-Maldive-image-text{
-     margin-top: -98px;
-    }
-    .card{
-        flex-direction: column;
-    }
-    .card-2{
-        margin-left: -2rem;
-    }
-    .card-1{
-        margin-left: -5rem;
-    }
-    .Newsletter-section{
-        flex-direction: column;
-    }
-    .card-3{
-        margin-left: 2rem;
-    }
-    .perfect-place-section{
-        flex-direction: column;
-
-    }
-    .popular-image{
-        margin-right: 10px;
+    /* Destination Image Part */
+    .Destination-image-part-1,
+    .Destination-image-part-2,
+    .Destination-image-part-3 {
+    flex-direction: column;
+    height: 420px;
+    width: 417px;
     }
     .Destination-image-part{
-        margin: 28px 8px;
+        margin: 0px;
     }
-    .north-america-image{
-        margin-top: 42px;
+
+    .Destination-Maldive-image-text {
+        margin-top: -98px;
     }
-    .kashmir-image{
-        margin-top: 42px;
-        height: 275px;
-        width: 475px;
+
+    /* Card Section */
+    .card {
+        flex-direction: column;
     }
-    .Bangladesh-image{
-        margin-left: 190px;
-        margin-top: 5px;
+
+    .card-2 {
+        margin-left: -2rem;
     }
-    .Bandarban-image{
-        margin-top: 100px;
+
+    .card-1 {
+        margin-left: -5rem;
     }
-    .deals-part-1{
-        margin: -3px -430px;
+
+    .card-3 {
+        margin-left: 2rem;
     }
-    .deals-part-2{
-        margin: -3px -430px;
+
+    /* Newsletter Section */
+    .Newsletter-section {
+        flex-direction: column;
     }
-    .deals-part-2-text{
-        margin-left: 28rem;
-    }
-    .deals-part-3{
-        margin: -3px -430px;
-    }
-    .perfect-place-section{
-        margin: -6px;
-        margin-left: 3rem;
-    }
-    .newsletter{
+
+    .newsletter {
         width: 600px;
         margin-top: 9rem;
         margin-left: -6rem;
     }
-    .newsletter-image{
+
+    .newsletter-image {
         margin-top: 2rem;
         margin-left: -6rem;
     }
-    .footer-icons{
+
+    /* Perfect Place Section */
+    .perfect-place-section {
+        flex-direction: column;
+        margin: -6px;
+        margin-left: 3rem;
+    }
+
+    /* Deals Part */
+    .deals-part-1,
+    .deals-part-2,
+    .deals-part-3 {
+        margin: -3px -430px;
+    }
+
+    .deals-part-2-text {
+        margin-left: 28rem;
+    }
+
+    /* Footer Icons */
+    .footer-icons {
         margin-left: 2rem;
     }
 
+    .footer {
+        width: 417px;
+        height: 422px;
+    }
 
+    .perfect-place-image {
+        width: 417px;
+        height: 422px;
+    }
 
+    .perfect-place {
+        width: 417px;
+        height: 422px;
+    }
 }
