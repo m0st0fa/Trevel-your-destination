@@ -464,11 +464,9 @@ header {
     text-align: center;
 }
 
-/* mobile device start from here  */
 /* Mobile Styles (max-width: 576px) */
 @media screen and (max-width: 576px) {
 
-    /* Navigation */
     nav {
         flex-direction: column;
     }
@@ -479,6 +477,10 @@ header {
     .header{
         margin: 60px 335px;
         margin-left: 20rem;
+    }
+    .body{
+        margin: 0px;
+
     }
 
     /* Banner Section */
@@ -504,35 +506,47 @@ header {
     }
 
     /* Destination Image Part */
-    .Destination-image-part-1,
-    .Destination-image-part-2,
+    .Destination-image-part-1{
+        flex-direction: column;
+        gap: 110px;
+        margin-left: -8rem;
+    }
+    .Destination-image-part-2 {
+        flex-direction: column;
+        margin-left: -8rem;
+        gap: 50px;
+    }
     .Destination-image-part-3 {
-    flex-direction: column;
-    height: 420px;
-    width: 417px;
+        flex-direction: column;
+        margin-left: 7rem;
+        gap: 7rem;
     }
-    .Destination-image-part{
-        margin: 0px;
-    }
-
-    .Destination-Maldive-image-text {
-        margin-top: -98px;
-    }
-
     /* Card Section */
     .card {
         flex-direction: column;
     }
 
     .card-2 {
-        margin-left: -2rem;
+        margin-left: -7rem;
+        width: 18rem;
+        height: 16rem;
     }
 
     .card-1 {
-        margin-left: -5rem;
+        margin-left: -7rem;
+        width: 18rem;
+        height: 16rem;
     }
 
     .card-3 {
+        width: 18rem;
+        height: 16rem;
+        margin-left: 1rem;
+    }
+    #sell-all {
+        margin-left: 17rem;
+    }
+    .save-70{
         margin-left: 2rem;
     }
 
@@ -542,7 +556,7 @@ header {
     }
 
     .newsletter {
-        width: 600px;
+        width: 370px;
         margin-top: 9rem;
         margin-left: -6rem;
     }
@@ -564,6 +578,7 @@ header {
     .deals-part-2,
     .deals-part-3 {
         margin: -3px -430px;
+        width: 68rem;
     }
 
     .deals-part-2-text {
@@ -588,5 +603,12 @@ header {
     .perfect-place {
         width: 417px;
         height: 422px;
+    }
+    .newsletter-image{
+        width: 417px;
+        height: 422px; 
+    }
+    .banner-section {
+     width: 28rem;
     }
 }
